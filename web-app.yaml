@@ -1,0 +1,7 @@
+#cloud-config
+packages:
+  - nginx
+
+runcmd:
+  - systemctl start nginx
+  - sudo systemctl enable nginx
